@@ -9,13 +9,17 @@ This API extends the original, cleans and re-architects the jQuery plugin, and p
 Repo structure:
 
 /script
+
     /jquery.atd-2.0.0.textarea.js           jQuery plugin for After The Deadline 
     
     
 /CSharp
+
     /Default.aspx.cs                        ASP.Net MVC default page handler
     /RouteMapping.cs                        ASP.Net MVC route mapping helper 
     /AtDProxyHandler.cs                     C# proxy class for ASP.Net MVC
 
+
 /Views
+
     /ContactMessageForm.ascx                ASP.Net MVC3 (NVelocity) view excerpt demonstrating AtD usage
